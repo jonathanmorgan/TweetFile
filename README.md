@@ -20,7 +20,7 @@
 - URL (optional) - if multiple URLs, multiple URL lines with one URL per URL line.
 - HT (optional) - if multiple hash tags, will have multiple HT lines, with one hash tag per HT line.
 
-## Notes on parsing:
+## Notes on parsing fields:
 - base end of text on pulling in lines until you reach another known field.
 - need capacity to store un-knowns (beginning of line doesn't fit any defined field type).
 - want to get at-mentions, eventually.
